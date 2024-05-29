@@ -60,11 +60,10 @@
     <section class="principal">
 
       <!--Imagen Principal-->
-      <div class="principal__img-container">
-        <picture>
-          <img src="./assets/images/image-web-3-desktop.jpg" class="principal__img" alt="Image Web 3"/>
-        </picture>
-      </div>
+      <picture class="principal__img-container">
+        <source srcset="./assets/images/image-web-3-mobile.jpg" media="(max-width: 600px)" />
+        <img src="./assets/images/image-web-3-desktop.jpg" class="principal__img" alt="Image Web 3"/>        
+      </picture>
 
       <div class="principal__content">
         <!--Titulo-->
